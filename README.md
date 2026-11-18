@@ -4,7 +4,7 @@
 
 **Your music library, on your Windows PC.** Play the files you already own, browse your albums, and build playlists that stay with you when you move to TuneDeck.
 
-[Download oTunes for Windows](https://github.com/PeteZDj/oTunes/releases) · [Compare editions](#take-your-library-into-tunedeck)
+[Download oTunes for Windows](https://github.com/PeteZDj/oTunes/releases/download/v0.1.0/oTunes-0.1.0-windows-x64.zip) · [Compare editions](#take-your-library-into-tunedeck)
 
 ## What you can do
 
@@ -34,6 +34,6 @@ Both editions open the same local music library on the same Windows account. You
 
 ## Source and license
 
-oTunes is built in C++ and Qt on the Mixxx engine. The release includes the corresponding source archive. Follow `CONTRIBUTING.md` in that archive, configure CMake with `-DTUNEDECK_LIBRARY_ONLY=ON`, and build target `mixxx`.
+oTunes is built in C++ and Qt on the Mixxx engine. The release includes the [corresponding source archive](https://github.com/PeteZDj/oTunes/releases/download/v0.1.0/otunes-tunedeck-corresponding-source.zip). Follow `CONTRIBUTING.md` in that archive, configure CMake with `-DTUNEDECK_LIBRARY_ONLY=ON`, and build target `mixxx`.
 
 The application is distributed under GNU GPL version 2. See `LICENSE` and `COPYING` in the source archive.
